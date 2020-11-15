@@ -5,8 +5,15 @@ import java.util.List;
 
 public class InOrderTraverse {
     public static List<Integer> inorderTraversalIterative(TreeNode<Integer> root) {
-        // homework
+        int i;
+        for (i = root; i <= root.val; i++) {
+            if (root[i] == value)
+                return i;
+        }
+        return i;
+
+
         List<Integer> result = new ArrayList<>();
-        return result;  // place holder
+        return result;
     }
 }
